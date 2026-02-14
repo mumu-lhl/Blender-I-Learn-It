@@ -10,6 +10,9 @@ theme:
     - content.action.edit
     - content.action.view
 
+    - search.suggest
+    - search.share
+
 plugins:
   - git-revision-date-localized:
       enable_creation_date: true
@@ -17,3 +20,8 @@ plugins:
   - git-committers:
       repository: mumu-lhl/Blender-I-Learn-It
       branch: main
+
+  - search:
+      lang: zh
+
+  - optimize
