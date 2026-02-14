@@ -1,3 +1,19 @@
 site_name: Blender，我秒了
+
+repo_url: https://github.com/mumu-lhl/Blender-I-Learn-It
+repo_name: mumu-lhl/Blender-I-Learn-It
+edit_uri: edit/main/docs/
+
 theme:
   name: material
+  features:
+    - content.action.edit
+    - content.action.view
+
+plugins:
+  - git-revision-date-localized:
+      enable_creation_date: true
+
+  - git-committers:
+      repository: mumu-lhl/Blender-I-Learn-It
+      branch: main
