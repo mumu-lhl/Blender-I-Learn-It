@@ -13,6 +13,8 @@ theme:
     - search.suggest
     - search.share
 
+  custom_dir: overrides
+
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
@@ -45,3 +47,11 @@ plugins:
       lang: zh
 
   - optimize
+  - meta
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      htmlmin_opts:
+        remove_comments: true
+      cache_safe: true
