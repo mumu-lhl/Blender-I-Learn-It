@@ -34,7 +34,8 @@ jobs:
             mkdocs-materialx-
 
       - run: |
-          apt-get install -y pngquant
+          sudo apt-get update
+          sudo apt-get install -y pngquant
           pip install \
             mkdocs-materialx \
             mkdocs-git-revision-date-localized-plugin \
